@@ -1,0 +1,4 @@
+#Thu Dec 05 19:53:48 EET 2019
+base.0=/Users/user/Workspace/Interviews/MoviesTube/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

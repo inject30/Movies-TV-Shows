@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tag="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        tag:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_view_on_tmdb"
+        android:title="@string/view_on_tmdb"
+        tag:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_view_on_imdb"
+        android:title="@string/view_on_imdb"
+        tag:showAsAction="never"/>
+
+
+</menu>

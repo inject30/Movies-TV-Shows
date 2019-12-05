@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.free.top.tvshows.tube"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:7:5-82:19
+14        android:name="com.free.top.tvshows.tube.Application"
+14-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:8:9-36
+15        android:allowBackup="true"
+15-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:12:9-41
+20        android:supportsRtl="true"
+20-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:13:9-35
+21        android:theme="@style/AppTheme"
+21-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:14:9-40
+22        android:usesCleartextTraffic="true" >
+22-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:9:9-44
+23        <activity
+23-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:16:9-24:20
+24            android:name="com.free.top.tvshows.tube.activities.SplashActivity"
+24-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:17:13-54
+25            android:theme="@style/SplashTheme" >
+25-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:18:13-47
+26            <intent-filter>
+26-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:20:17-69
+27-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:22:17-77
+29-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:26:9-31:20
+33            android:name="com.free.top.tvshows.tube.activities.MainActivity"
+33-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:27:13-52
+34            android:label="@string/app_name"
+34-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:28:13-45
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:29:13-56
+36        </activity>
+37        <activity
+37-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:33:9-37:20
+38            android:name="com.free.top.tvshows.tube.activities.MovieActivity"
+38-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:34:13-53
+39            android:label="@string/app_name"
+39-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:35:13-45
+40            android:theme="@style/AppTheme.NoActionBar" >
+40-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:36:13-56
+41        </activity>
+42        <activity
+42-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:39:9-44:20
+43            android:name="com.free.top.tvshows.tube.activities.TVShowActivity"
+43-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:40:13-54
+44            android:label="@string/app_name"
+44-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:41:13-45
+45            android:theme="@style/AppTheme.NoActionBar" >
+45-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:42:13-56
+46        </activity>
+47        <activity
+47-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:46:9-51:20
+48            android:name="com.free.top.tvshows.tube.activities.TVSeasonActivity"
+48-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:47:13-56
+49            android:label="@string/app_name"
+49-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:48:13-45
+50            android:theme="@style/AppTheme.NoActionBar" >
+50-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:49:13-56
+51        </activity>
+52        <activity
+52-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:53:9-58:20
+53            android:name="com.free.top.tvshows.tube.activities.PersonActivity"
+53-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:54:13-54
+54            android:label="@string/app_name"
+54-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:55:13-45
+55            android:theme="@style/AppTheme.NoActionBar" >
+55-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:56:13-56
+56        </activity>
+57        <activity
+57-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:60:9-73:20
+58            android:name="com.free.top.tvshows.tube.activities.SearchActivity"
+58-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:61:13-54
+59            android:label="@string/app_name"
+59-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:62:13-45
+60            android:theme="@style/AppTheme.NoActionBar" >
+60-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:63:13-56
+61            <intent-filter>
+61-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:65:13-67:29
+62                <action android:name="android.intent.action.SEARCH" />
+62-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:66:17-70
+62-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:66:25-68
+63            </intent-filter>
+64
+65            <meta-data
+65-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:69:13-71:53
+66                android:name="android.app.searchable"
+66-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:70:17-54
+67                android:resource="@xml/searchable" />
+67-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:71:17-51
+68        </activity>
+69        <activity
+69-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:75:9-80:20
+70            android:name="com.free.top.tvshows.tube.activities.ImageGalleryActivity"
+70-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:76:13-60
+71            android:label="@string/app_name"
+71-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:77:13-45
+72            android:theme="@style/AppTheme.NoActionBar" >
+72-->/Users/user/Workspace/Interviews/MoviesTube/app/src/main/AndroidManifest.xml:78:13-56
+73        </activity>
+74    </application>
+75
+76</manifest>
