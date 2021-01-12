@@ -1,6 +1,6 @@
-# MusicTube
+# Movies & TV Shows
 
-This project was created more than an year ago for fun and for using modern android technologies for development. This project is no longer in active development.
+This project was created in 2017 for discovering for new movies, tv shows and celebrities.You can read detailed information about movie or tv show, view its ratings or watch trailers. The API was used by themoviedb.org. This project is no longer in active development.
 
 ## Screenshots
 
@@ -15,8 +15,9 @@ This project was created more than an year ago for fun and for using modern andr
 <img src="https://github.com/inject30/MoviestubeProject/blob/master/screens/9.png" width="360" height="640">
 
 ### Features
-- Material design
-- Browse Songs, Albums, Artists
-- Search Music
-- Download Music
-- Listen Music
+- Top Rated, popular and upcoming movies & tv shows
+- Search by movies, tv shows or celebrities
+- Browse moviews recommendations
+- Filter & sort movies & tv shows
+- Check movies & tv shows ratings like IMDb, TMDb
+- Read descriptions, view photos
